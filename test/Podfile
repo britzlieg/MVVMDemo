@@ -1,0 +1,11 @@
+
+xcodeproj 'test.xcodeproj'
+
+target :test do
+platform :ios, '8.0'
+link_with 'test', 'testTests'
+pod 'SSZipArchive'
+pod 'AFNetworking’
+xcodeproj 'test.xcodeproj'
+end
+
