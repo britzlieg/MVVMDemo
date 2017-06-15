@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C8AECDA8C8B7FF441BAB5F2 /* libPods-ReduxOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 964F735C4429EED963666B0F /* libPods-ReduxOC.a */; };
+		57C5EF631EF220F50033D89A /* YKMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C5EF621EF220F50033D89A /* YKMessage.m */; };
+		57C5EF661EF222790033D89A /* YKDispatchCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C5EF651EF222790033D89A /* YKDispatchCenter.m */; };
+		57DAFCA31EEA3D26000BC221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DAFCA21EEA3D26000BC221 /* main.m */; };
+		57DAFCA61EEA3D26000BC221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DAFCA51EEA3D26000BC221 /* AppDelegate.m */; };
+		57DAFCA91EEA3D26000BC221 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DAFCA81EEA3D26000BC221 /* ViewController.m */; };
+		57DAFCAC1EEA3D26000BC221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DAFCAA1EEA3D26000BC221 /* Main.storyboard */; };
+		57DAFCAE1EEA3D26000BC221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57DAFCAD1EEA3D26000BC221 /* Assets.xcassets */; };
+		57DAFCB11EEA3D26000BC221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DAFCAF1EEA3D26000BC221 /* LaunchScreen.storyboard */; };
+		57DAFCE11EEA7F82000BC221 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DAFCD51EEA7F82000BC221 /* Action.m */; };
+		57DAFCE21EEA7F82000BC221 /* Reducer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DAFCD91EEA7F82000BC221 /* Reducer.m */; };
+		57DAFCE31EEA7F82000BC221 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DAFCDD1EEA7F82000BC221 /* State.m */; };
+		57DAFCE41EEA7F82000BC221 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DAFCE01EEA7F82000BC221 /* Store.m */; };
+		57DAFCE71EEA829F000BC221 /* CombineReducers.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DAFCE61EEA829F000BC221 /* CombineReducers.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D8FE7B9B310FDA814250DC2 /* Pods-ReduxOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReduxOC/Pods-ReduxOC.release.xcconfig"; sourceTree = "<group>"; };
+		57C5EF611EF220F50033D89A /* YKMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKMessage.h; sourceTree = "<group>"; };
+		57C5EF621EF220F50033D89A /* YKMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKMessage.m; sourceTree = "<group>"; };
+		57C5EF641EF222790033D89A /* YKDispatchCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKDispatchCenter.h; sourceTree = "<group>"; };
+		57C5EF651EF222790033D89A /* YKDispatchCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKDispatchCenter.m; sourceTree = "<group>"; };
+		57DAFC9E1EEA3D26000BC221 /* ReduxOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DAFCA21EEA3D26000BC221 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57DAFCA41EEA3D26000BC221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57DAFCA51EEA3D26000BC221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57DAFCA71EEA3D26000BC221 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57DAFCA81EEA3D26000BC221 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57DAFCAB1EEA3D26000BC221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57DAFCAD1EEA3D26000BC221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57DAFCB01EEA3D26000BC221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57DAFCB21EEA3D26000BC221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DAFCD41EEA7F82000BC221 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		57DAFCD51EEA7F82000BC221 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+		57DAFCD61EEA7F82000BC221 /* ActioneType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActioneType.h; sourceTree = "<group>"; };
+		57DAFCD81EEA7F82000BC221 /* Reducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reducer.h; sourceTree = "<group>"; };
+		57DAFCD91EEA7F82000BC221 /* Reducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reducer.m; sourceTree = "<group>"; };
+		57DAFCDA1EEA7F82000BC221 /* ReduxOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReduxOC.h; sourceTree = "<group>"; };
+		57DAFCDC1EEA7F82000BC221 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		57DAFCDD1EEA7F82000BC221 /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		57DAFCDF1EEA7F82000BC221 /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		57DAFCE01EEA7F82000BC221 /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		57DAFCE51EEA829F000BC221 /* CombineReducers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombineReducers.h; sourceTree = "<group>"; };
+		57DAFCE61EEA829F000BC221 /* CombineReducers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombineReducers.m; sourceTree = "<group>"; };
+		964F735C4429EED963666B0F /* libPods-ReduxOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReduxOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5088473934572D4FD6DC32E /* Pods-ReduxOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReduxOC/Pods-ReduxOC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57DAFC9B1EEA3D26000BC221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8AECDA8C8B7FF441BAB5F2 /* libPods-ReduxOC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21D525F7DFD650AA388515A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				964F735C4429EED963666B0F /* libPods-ReduxOC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57C5EF601EF220D90033D89A /* Messager */ = {
+			isa = PBXGroup;
+			children = (
+				57C5EF611EF220F50033D89A /* YKMessage.h */,
+				57C5EF621EF220F50033D89A /* YKMessage.m */,
+				57C5EF641EF222790033D89A /* YKDispatchCenter.h */,
+				57C5EF651EF222790033D89A /* YKDispatchCenter.m */,
+			);
+			path = Messager;
+			sourceTree = "<group>";
+		};
+		57DAFC951EEA3D26000BC221 = {
+			isa = PBXGroup;
+			children = (
+				57DAFCA01EEA3D26000BC221 /* ReduxOC */,
+				57DAFC9F1EEA3D26000BC221 /* Products */,
+				74504753BEA5C2B45CE77460 /* Pods */,
+				21D525F7DFD650AA388515A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57DAFC9F1EEA3D26000BC221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57DAFC9E1EEA3D26000BC221 /* ReduxOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57DAFCA01EEA3D26000BC221 /* ReduxOC */ = {
+			isa = PBXGroup;
+			children = (
+				57C5EF601EF220D90033D89A /* Messager */,
+				57DAFCB81EEA3D4A000BC221 /* ReduxOC */,
+				57DAFCA41EEA3D26000BC221 /* AppDelegate.h */,
+				57DAFCA51EEA3D26000BC221 /* AppDelegate.m */,
+				57DAFCA71EEA3D26000BC221 /* ViewController.h */,
+				57DAFCA81EEA3D26000BC221 /* ViewController.m */,
+				57DAFCAA1EEA3D26000BC221 /* Main.storyboard */,
+				57DAFCAD1EEA3D26000BC221 /* Assets.xcassets */,
+				57DAFCAF1EEA3D26000BC221 /* LaunchScreen.storyboard */,
+				57DAFCB21EEA3D26000BC221 /* Info.plist */,
+				57DAFCA11EEA3D26000BC221 /* Supporting Files */,
+			);
+			path = ReduxOC;
+			sourceTree = "<group>";
+		};
+		57DAFCA11EEA3D26000BC221 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57DAFCA21EEA3D26000BC221 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57DAFCB81EEA3D4A000BC221 /* ReduxOC */ = {
+			isa = PBXGroup;
+			children = (
+				57DAFCDA1EEA7F82000BC221 /* ReduxOC.h */,
+				57DAFCD31EEA7F82000BC221 /* Action */,
+				57DAFCD71EEA7F82000BC221 /* Reducer */,
+				57DAFCDB1EEA7F82000BC221 /* State */,
+				57DAFCDE1EEA7F82000BC221 /* Store */,
+			);
+			path = ReduxOC;
+			sourceTree = "<group>";
+		};
+		57DAFCD31EEA7F82000BC221 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				57DAFCD41EEA7F82000BC221 /* Action.h */,
+				57DAFCD51EEA7F82000BC221 /* Action.m */,
+				57DAFCD61EEA7F82000BC221 /* ActioneType.h */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		57DAFCD71EEA7F82000BC221 /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				57DAFCD81EEA7F82000BC221 /* Reducer.h */,
+				57DAFCD91EEA7F82000BC221 /* Reducer.m */,
+				57DAFCE51EEA829F000BC221 /* CombineReducers.h */,
+				57DAFCE61EEA829F000BC221 /* CombineReducers.m */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		57DAFCDB1EEA7F82000BC221 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				57DAFCDC1EEA7F82000BC221 /* State.h */,
+				57DAFCDD1EEA7F82000BC221 /* State.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		57DAFCDE1EEA7F82000BC221 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				57DAFCDF1EEA7F82000BC221 /* Store.h */,
+				57DAFCE01EEA7F82000BC221 /* Store.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		74504753BEA5C2B45CE77460 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5088473934572D4FD6DC32E /* Pods-ReduxOC.debug.xcconfig */,
+				2D8FE7B9B310FDA814250DC2 /* Pods-ReduxOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57DAFC9D1EEA3D26000BC221 /* ReduxOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DAFCB51EEA3D26000BC221 /* Build configuration list for PBXNativeTarget "ReduxOC" */;
+			buildPhases = (
+				50C390C420214DA0F6C8B150 /* [CP] Check Pods Manifest.lock */,
+				57DAFC9A1EEA3D26000BC221 /* Sources */,
+				57DAFC9B1EEA3D26000BC221 /* Frameworks */,
+				57DAFC9C1EEA3D26000BC221 /* Resources */,
+				943D49F64756F01A076A7A2A /* [CP] Embed Pods Frameworks */,
+				5CBAA19FD3932701B587BFA3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReduxOC;
+			productName = ReduxOC;
+			productReference = 57DAFC9E1EEA3D26000BC221 /* ReduxOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57DAFC961EEA3D26000BC221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = britzlieg;
+				TargetAttributes = {
+					57DAFC9D1EEA3D26000BC221 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7JH39V424L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 57DAFC991EEA3D26000BC221 /* Build configuration list for PBXProject "ReduxOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57DAFC951EEA3D26000BC221;
+			productRefGroup = 57DAFC9F1EEA3D26000BC221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57DAFC9D1EEA3D26000BC221 /* ReduxOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57DAFC9C1EEA3D26000BC221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DAFCB11EEA3D26000BC221 /* LaunchScreen.storyboard in Resources */,
+				57DAFCAE1EEA3D26000BC221 /* Assets.xcassets in Resources */,
+				57DAFCAC1EEA3D26000BC221 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50C390C420214DA0F6C8B150 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5CBAA19FD3932701B587BFA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReduxOC/Pods-ReduxOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		943D49F64756F01A076A7A2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReduxOC/Pods-ReduxOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57DAFC9A1EEA3D26000BC221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DAFCE21EEA7F82000BC221 /* Reducer.m in Sources */,
+				57DAFCA91EEA3D26000BC221 /* ViewController.m in Sources */,
+				57DAFCE11EEA7F82000BC221 /* Action.m in Sources */,
+				57DAFCE41EEA7F82000BC221 /* Store.m in Sources */,
+				57C5EF661EF222790033D89A /* YKDispatchCenter.m in Sources */,
+				57DAFCE31EEA7F82000BC221 /* State.m in Sources */,
+				57DAFCA61EEA3D26000BC221 /* AppDelegate.m in Sources */,
+				57DAFCE71EEA829F000BC221 /* CombineReducers.m in Sources */,
+				57C5EF631EF220F50033D89A /* YKMessage.m in Sources */,
+				57DAFCA31EEA3D26000BC221 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57DAFCAA1EEA3D26000BC221 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57DAFCAB1EEA3D26000BC221 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57DAFCAF1EEA3D26000BC221 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57DAFCB01EEA3D26000BC221 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57DAFCB31EEA3D26000BC221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57DAFCB41EEA3D26000BC221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57DAFCB61EEA3D26000BC221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5088473934572D4FD6DC32E /* Pods-ReduxOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7JH39V424L;
+				INFOPLIST_FILE = ReduxOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Britzlieg.ReduxOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57DAFCB71EEA3D26000BC221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8FE7B9B310FDA814250DC2 /* Pods-ReduxOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7JH39V424L;
+				INFOPLIST_FILE = ReduxOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Britzlieg.ReduxOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57DAFC991EEA3D26000BC221 /* Build configuration list for PBXProject "ReduxOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DAFCB31EEA3D26000BC221 /* Debug */,
+				57DAFCB41EEA3D26000BC221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DAFCB51EEA3D26000BC221 /* Build configuration list for PBXNativeTarget "ReduxOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DAFCB61EEA3D26000BC221 /* Debug */,
+				57DAFCB71EEA3D26000BC221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57DAFC961EEA3D26000BC221 /* Project object */;
+}

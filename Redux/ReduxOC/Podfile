@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+
+pod 'ReactiveCocoa','~>2.1.8'
+
+target 'ReduxOC' do
+end
+
+#注意编辑该文件时，请勿使用【文本编辑】
